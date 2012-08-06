@@ -1,0 +1,23 @@
+{
+    "id": "spring_template",
+    "name": "Spring, Hibernate and tomcat",
+    "source": "git://github.com/CloudBees-community/spring_template.git",
+    "description" : "This is a basic spring MVC, hibernate and tomcat application showcasing ORM",
+    "doc-url" : "https://github.com/CloudBees-community/spring_template/blob/master/README.md",
+    "runtime": {
+        "type": "tomcat"                
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "ExampleDS"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {
+            }
+        }
+    }
+}
