@@ -22,16 +22,7 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
-  <!--<servlet>
-    <display-name>ItemController</display-name>
-    <servlet-name>ItemController</servlet-name>
-    <servlet-class>jsp.ItemController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ItemController</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping> -->
-   <resource-ref>
+  <resource-ref>
     <res-ref-name>comp/env/jdbc/ExampleDS</res-ref-name>
     <!-- Comment the above line, and uncomment the following one to deploy on JBoss -->
     <!-- <res-ref-name>jdbc/ExampleDS</res-ref-name> -->
