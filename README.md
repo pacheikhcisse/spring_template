@@ -1,5 +1,19 @@
 # Spring MVC Template with Hibernate and Maven for CloudBees.
 
+This clickstart sets up a database, build service, repository and a basic Java servlet and Spring ORM application.
+All built by maven. 
+
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/benjaminsavoy/spring_template/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
+
+Launch this clickstart and glory could be yours too ! Use it as a building block if you like.
+
+You can launch this on Cloudbees via a clickstart automatically, or follow the instructions below. 
+
+
+
+# Deploying manually: 
+
+
 ## Note before deploying this on JBoss 7:
 
 There are configuration changes to do in the following file, comments will indicate which lines to change and how.
