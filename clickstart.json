@@ -1,10 +1,11 @@
 {
     "id": "spring_template",
     "name": "Spring, Hibernate and tomcat",
-    "source": "git://github.com/benjaminsavoy/spring_template.git",
+    "source": "git://github.com/CloudBees-community/spring_template.git",
     "description" : "This is a basic spring MVC, hibernate and tomcat application showcasing ORM",
-    "doc-url" : "https://github.com/benjaminsavoy/spring_template/blob/master/README.md",
-    "icon" : "https://raw.github.com/benjaminsavoy/spring_template/master/icon.png",
+    "doc-url" : "https://github.com/CloudBees-community/spring_template/blob/master/README.md",
+    "icon" : "https://raw.github.com/CloudBees-community/spring_template/master/icon.png",
+    "disabled": true,
     "runtime": {
         "type": "tomcat"                
     },
