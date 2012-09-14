@@ -5,6 +5,7 @@
     "description" : "This is a basic spring MVC, hibernate and tomcat application showcasing ORM",
     "doc-url" : "https://github.com/CloudBees-community/spring_template/blob/master/README.md",
     "icon" : "https://raw.github.com/CloudBees-community/spring_template/master/icon.png",
+    "app-package": "http://cloudbees-downloads.s3.amazonaws.com/clickstart/spring_basic_maven.war",
     "disabled": true,
     "runtime": {
         "type": "tomcat"                
